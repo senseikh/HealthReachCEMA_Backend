@@ -8,7 +8,8 @@ class Program(models.Model):
     start_date = models.DateField()
     end_date = models.DateField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
-    created_by = models.ForeignKey(User, on_delete=models.SET_NULL, null=True)
+    # created_by = models.ForeignKey(User, on_delete=models.SET_NULL, null=True,
+        # blank=True)
 
     class Meta:
         ordering = ['name']

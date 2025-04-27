@@ -9,7 +9,7 @@ class ProgramViewSet(viewsets.ModelViewSet):
     permission_classes = [AllowAny]
 
     def perform_create(self, serializer):
-        serializer.save(created_by=self.request.user)
+        serializer.save()
 
 
     
@@ -21,6 +21,8 @@ class EnrollmentViewSet(viewsets.ModelViewSet):
     def perform_create(self, serializer):
         # Just save the enrollment without trying to set client__created_by
         serializer.save()
+    
+
             
     def get_queryset(self):
         if self.request.user.is_authenticated:

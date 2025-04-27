@@ -4,8 +4,8 @@ from .models import Program, Enrollment
 class ProgramSerializer(serializers.ModelSerializer):
     class Meta:
         model = Program
-        fields = ['id', 'name', 'description', 'start_date', 'end_date', 'created_at', 'created_by']
-        read_only_fields = ['created_at', 'created_by']
+        fields = ['id', 'name', 'description', 'start_date', 'end_date', 'created_at']
+        read_only_fields = ['created_at']
 
 class EnrollmentSerializer(serializers.ModelSerializer):
     program = ProgramSerializer(read_only=True)
