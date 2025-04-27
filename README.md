@@ -1,5 +1,9 @@
 "# HealthReachCEMA_Backend"
 
+Screen Shot
+![alt text](image.png)
+,
+
 HealthReach CEMA - Health Information System
 Overview
 HealthReach CEMA is a health information system designed to manage clients and health programs/services, such as TB, Malaria, and HIV. The system allows doctors to create health programs, register clients, enroll clients in programs, search for clients, view client profiles, and expose client profiles via a REST API. The backend is built with Django and SQLite, while the frontend is developed using Next.js. The application is deployed with Render for the backend and Vercel for the frontend.
@@ -123,8 +127,6 @@ Implement pagination for large client lists.
 Enhance security with JWT authentication for APIs.
 Add more comprehensive unit and integration tests.
 
-Screen Shot
-![alt text](image.png)
 
 Contact
 For any issues or inquiries, please contact:
