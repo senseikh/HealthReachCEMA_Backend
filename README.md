@@ -118,7 +118,8 @@ Commit history reflects clean, incremental changes with descriptive messages.
 Presentation & Demonstration
 
 PowerPoint: A presentation outlining the approach, design, and solution is available in the repository (docs/ProjectHealthReachPowerPoint.pptx).
-Prototype Demo: A live demo is available at the deployed frontend URL. A video walkthrough is also included in the repository (docs/demo.mp4).
+Prototype Demo: A live demo is available at the deployed frontend URL. A video walkthrough is also included in the repository (Access throught this link:
+https://drive.google.com/file/d/14qCtAuZLQTSZclX8LEP0JBpncM8vSfEh/view?usp=sharing).
 
 Future Improvements
 
